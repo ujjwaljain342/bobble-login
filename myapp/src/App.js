@@ -41,6 +41,8 @@ function App() {
             <p>SIGN UP</p>
         <h3>Create your account</h3>
         <div className="item1">
+      
+      //google login button
        <div className="i1">
         <GoogleLogin
             clientId="241247934703-jvbacr7tv8b4pcoc9t7o0nrl271cpi4u.apps.googleusercontent.com"
@@ -49,6 +51,8 @@ function App() {
             onFailure={responseGoogle}
             cookiePolicy={'single_host_origin'} />
         </div>
+      
+      //facebook login button
         <div className="i2">
         <FacebookLogin
             appId="973915419685508"
@@ -61,6 +65,8 @@ function App() {
         </div>
         <div class="or-seperator"><b>or</b></div>
         <div className="divf">
+      
+      //form started
         <form onSubmit={onSumits}>
         <div className="divin">
             <input type="text" value={detail.fname} name="fname" onChange={inputEvent} placeholder="First Name" />
@@ -81,6 +87,8 @@ function App() {
             <button type="submit">Signup</button>
         </div>
         </form>
+      
+      // form ended
         </div> 
     </div>
     </div>
