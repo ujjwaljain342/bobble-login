@@ -1,0 +1,52 @@
+.grid-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto; /*Make the grid smaller than the container*/
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  .grid-container > div{
+    text-align: center;
+    grid-template-columns: auto;
+    padding: 30px ;
+    font-size: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .item1{
+    column-count: 2;
+    column-gap: 10px; 
+    margin: 30px; 
+  }
+  
+input {
+    width: 100%;
+    padding: 5px;
+}
+.but > button{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(53, 111, 235);
+    border: none;
+    color: white;
+}
+.p1{
+    border: solid black;
+}
+.or-seperator {
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+}
+.or-seperator b {
+    color: #666;
+    padding: 0 15px;
+    width: 30px;
+    height: 30px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 26px;
+    background: #fff;
+    display: inline-block;
+    position: relative;
+    top: -28px;
+    z-index: 1;
+}
